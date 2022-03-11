@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        title: ['Shippori Antique B1'],
+        shippori: ['Shippori Antique B1'],
       },
     },
   },
