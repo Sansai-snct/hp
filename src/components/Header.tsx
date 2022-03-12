@@ -3,8 +3,8 @@ import { FC } from 'react';
 
 const Header: FC = () => {
   return (
-    <section>
-      <div className="">Sansai | Shunta Yamagiwa</div>
+    <section className="">
+      <div className=" bg-h-img sm:bg-w-img bg-cover bg-center flex relative h-screen w-screen items-center text-4xl min-h-8"></div>
     </section>
   );
 };
