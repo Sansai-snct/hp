@@ -1,14 +1,15 @@
 import * as React from 'react';
 import { FC, lazy, Fragment, Suspense } from 'react';
-
+import Header from '../components/Header';
 const About = lazy(() => import('./About'));
-const Histories = lazy(() => import('./Histories'));
+const Activities = lazy(() => import('./Activities'));
 const Index: FC = () => {
   return (
     <Fragment>
       <Suspense fallback={<></>}>
+        <Header />
         <About />
-        <Histories />
+        <Activities />
       </Suspense>
     </Fragment>
   );
