@@ -13,6 +13,23 @@ const Header: FC = () => {
         <div className="text-white text-3xl md:text-6xl lg:text-8xl py-48 lg:py-80 text-center font-roboto">
           Shunta Yamagiwa
         </div>
+        <div className=" text-center">
+          <Scroll
+            to="about"
+            smooth={true}
+            className="hover:bg-gray-300 rounded inline-flex items-center"
+          >
+            <svg
+              className="w-12 h-12 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M19 13l-7 7-7-7m14-8l-7 7-7-7"></path>
+            </svg>
+          </Scroll>
+        </div>
         <div className="absolute top-1/4 -right-0 z-50 lg:scale-50">
           <Link href="https://github.com/Sansai-snct" target="_blank">
             <img
@@ -32,13 +49,6 @@ const Header: FC = () => {
             href="https://www.instagram.com/sansai_l4z/"
             target="_blank"
           ></Link>
-        </div>
-        <div className="text-4xl text-center">
-          <Scroll
-            to="about"
-            smooth={true}
-            className="bg-white hover:bg-gray-300  py-2 px-2 rounded inline-flex items-center"
-          ></Scroll>
         </div>
       </div>
     </section>
