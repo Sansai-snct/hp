@@ -12,16 +12,14 @@ interface AcitivityInterface {
 const Activity: FC<AcitivityInterface> = ({ date, content }) => {
   return (
     <div className="mb-8 ml-6">
-      <div className="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+      <div className="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white"></div>
       <li>
-        <span className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+        <span className="text-sm font-normal leading-none text-gray-400">
           {date}
         </span>
         <br />
 
-        <span className="mb-4 text-base font-normal text-gray-700 dark:text-gray-400">
-          {content}
-        </span>
+        <span className="text-base font-normal text-gray-700">{content}</span>
       </li>
     </div>
   );
