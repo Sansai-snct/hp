@@ -10,12 +10,23 @@ const Works: FC = () => {
   return (
     <section className="lg:mt-32 mt-16">
       <Title>Works</Title>
-      <div className="mt-6 lg:px-60  px-8">
-        <WorkDetail
-          name="KigaLT"
-          src={kigalt}
-          content="パソコン甲子園2021で発表したLTプラットフォーム"
-        />
+      <div className="mt-6 lg:px-60  px-8 flex">
+        <div className="flex flex-wrap md:w-3/12">
+          <WorkDetail
+            name="KigaLT"
+            src={kigalt}
+            content="パソコン甲子園2021で発表したLTプラットフォーム"
+            stack="React , TypeScript , css , FireStore , Skyway"
+          />
+        </div>
+        <div className="flex flex-wrap md:w-3/12">
+          <WorkDetail
+            name="This site"
+            src={kigalt}
+            content="このポートフォリオです。"
+            stack="React , TypeScript , Tailwindcss "
+          />
+        </div>
       </div>
     </section>
   );
