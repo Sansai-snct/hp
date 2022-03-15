@@ -5,16 +5,22 @@ interface WorkDetailInterface {
   name: string;
   content: string;
   src: string;
+  stack: string;
 }
 
-const WorkDetail: FC<WorkDetailInterface> = ({ name, content, src }) => {
+const WorkDetail: FC<WorkDetailInterface> = ({ name, content, src, stack }) => {
   return (
-    <div className="">
-      <img className="" src={src} alt={name} />
+    <div className="relactive bg-white rounded-lg border border-gray-200 shadow-md">
+      <img
+        className="w-full h-hull block object-cover scale-90"
+        src={src}
+        alt={name}
+      />
       <div className="">
-        <div className="">
-          <div className=""> 作品名: {name} </div>
-          <div className="">内容： {content}</div>
+        <div className="mb-4 px-4">
+          <div className=""> 作品名 : {name} </div>
+          <div className="">内容 : {content}</div>
+          <div className="">使用技術 : {stack}</div>
         </div>
       </div>
     </div>
