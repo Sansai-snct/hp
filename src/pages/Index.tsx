@@ -5,6 +5,7 @@ import Header from '../components/Header';
 const About = lazy(() => import('./About'));
 const Activities = lazy(() => import('./Activities'));
 const Works = lazy(() => import('./Works'));
+const Skills = lazy(() => import('./Skills'));
 
 const Index: FC = () => {
   return (
@@ -13,6 +14,7 @@ const Index: FC = () => {
       <Suspense fallback={<></>}>
         <About />
         <Activities />
+        <Skills />
         <Works />
       </Suspense>
     </Fragment>
