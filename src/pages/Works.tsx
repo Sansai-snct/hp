@@ -5,6 +5,7 @@ import Title from '../components/Title';
 import WorkDetail from '../components/WorkDetail';
 
 import kigalt from '../images/kigalt.jpeg';
+import bgw from '../images/bg-w.jpg';
 
 const Works: FC = () => {
   return (
@@ -19,10 +20,10 @@ const Works: FC = () => {
             stack="React , TypeScript , css , FireStore , Skyway"
           />
         </div>
-        <div className="flex flex-wrap md:w-3/12">
+        <div className="flex flex-wrap  w-full md:w-3/12 md:mr-4 mb-4">
           <WorkDetail
             name="This site"
-            src={kigalt}
+            src={bgw}
             content="このポートフォリオです。"
             stack="React , TypeScript , Tailwindcss "
           />
