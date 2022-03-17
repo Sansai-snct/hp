@@ -12,11 +12,11 @@ const WorkDetail: FC<WorkDetailInterface> = ({ name, content, src, stack }) => {
   return (
     <div className="relactive bg-white rounded-lg border border-gray-200 shadow-md">
       <img
-        className="w-full h-hull block object-cover scale-90"
+        className="w-full max-h-32 block object-cover scale-90"
         src={src}
         alt={name}
       />
-      <div className="">
+      <div className="mt-4">
         <div className="mb-4 px-4">
           <div className=""> 作品名 : {name} </div>
           <div className="">内容 : {content}</div>
