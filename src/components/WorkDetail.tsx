@@ -10,7 +10,7 @@ interface WorkDetailInterface {
 
 const WorkDetail: FC<WorkDetailInterface> = ({ name, content, src, stack }) => {
   return (
-    <div className="relactive bg-white rounded-lg border border-gray-200 shadow-md">
+    <div className=" relactive h-72 w-72 bg-white rounded-lg border border-gray-200 shadow-md">
       <img
         className="w-full max-h-32 block object-cover scale-90"
         src={src}
