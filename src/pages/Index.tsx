@@ -7,6 +7,8 @@ const Activities = lazy(() => import('./Activities'));
 const Works = lazy(() => import('./Works'));
 const Skills = lazy(() => import('./Skills'));
 const Footer = lazy(() => import('../components/Footer'));
+const Links = lazy(() => import('./Links'));
+
 const Index: FC = () => {
   return (
     <Fragment>
@@ -16,6 +18,7 @@ const Index: FC = () => {
         <Activities />
         <Skills />
         <Works />
+        <Links />
         <Footer />
       </Suspense>
     </Fragment>

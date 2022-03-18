@@ -22,7 +22,7 @@ const Works: FC = () => {
         </div>
         <div className="flex flex-wrap w-full lg:w-3/12">
           <WorkDetail
-            name="This site"
+            name="ポートフォリオ"
             src={bgw}
             content="このポートフォリオです。"
             stack="React , TypeScript , Tailwindcss "
