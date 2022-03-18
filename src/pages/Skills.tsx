@@ -3,14 +3,17 @@ import { FC } from 'react';
 
 import Title from '../components/Title';
 
-import js from '../images/js.png';
-import nextjs from '../images/nextjs.png';
-import react from '../images/react.png';
-import ts from '../images/typescript.png';
-import swift from '../images/swift.png';
-import git from '../images/git.png';
-import cpp from '../images/cpp.png';
-import python from '../images/python.png';
+import js from '../images/skills/js.png';
+import farm from '../images/skills/farm.webp';
+import nextjs from '../images/skills/next.png';
+import react from '../images/skills/react.png';
+import ts from '../images/skills/typescript.png';
+import swift from '../images/skills/swift.png';
+import git from '../images/skills/git.png';
+import cpp from '../images/skills/cpp.png';
+import python from '../images/skills/python.png';
+import Github from '../images/github.png';
+import fb from '../images/skills/firebase.png';
 
 const Skills: FC = () => {
   return (
@@ -18,6 +21,10 @@ const Skills: FC = () => {
       <Title>Skills</Title>
       <div className="mt-6 lg:px-60 px-8 ">
         <ul className="flex flex-wrap flex-row">
+          <li className=" mb-10 shadow-md w-24 h-24 mr-8">
+            <img src={farm} alt="Swift's logo" />
+            Rice farming
+          </li>
           <li className=" mb-10 bg-white  w-24 h-24 mr-8">
             <img src={swift} alt="Swift's logo" />
             Swift
@@ -37,14 +44,34 @@ const Skills: FC = () => {
             Typescript
           </li>
 
-          <li className=" mb-10  w-24 md:h-24 mr-8">
+          <li className=" mb-10  w-24 h-24 mr-8">
             <img src={js} alt="js's logo" />
             JavaScript
           </li>
 
-          <li className=" mb-10  w-24 md:h-24 mr-8">
+          <li className=" mb-10  w-24 h-24 mr-8">
+            <img src={react} alt="js's logo" />
+            React.js
+          </li>
+
+          <li className=" mb-10  w-24 h-24 mr-8">
+            <img src={nextjs} alt="js's logo" />
+            Next.js
+          </li>
+
+          <li className=" mb-10  w-24 h-24 mr-8">
             <img src={git} alt="next's logo" />
             Git
+          </li>
+
+          <li className="bg-black mb-10  w-24 h-24 mr-8">
+            <img src={Github} alt="next's logo" />
+            Git Hub
+          </li>
+
+          <li className=" mb-10  w-24 h-24 mr-8">
+            <img src={fb} alt="js's logo" />
+            Firebase
           </li>
         </ul>
       </div>
