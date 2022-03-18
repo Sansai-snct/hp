@@ -22,7 +22,7 @@ const Skills: FC = () => {
       <div className="mt-6 lg:px-60 px-8 ">
         <ul className="flex flex-wrap flex-row">
           <li className=" mb-10 shadow-md w-24 h-24 mr-8">
-            <img src={farm} alt="Swift's logo" />
+            <img src={farm} alt="farm's logo" />
             Rice farming
           </li>
           <li className=" mb-10 bg-white  w-24 h-24 mr-8">
@@ -50,27 +50,27 @@ const Skills: FC = () => {
           </li>
 
           <li className=" mb-10  w-24 h-24 mr-8">
-            <img src={react} alt="js's logo" />
+            <img src={react} alt="react's logo" />
             React.js
           </li>
 
           <li className=" mb-10  w-24 h-24 mr-8">
-            <img src={nextjs} alt="js's logo" />
+            <img src={nextjs} alt="next's logo" />
             Next.js
           </li>
 
           <li className=" mb-10  w-24 h-24 mr-8">
-            <img src={git} alt="next's logo" />
+            <img src={git} alt="git's logo" />
             Git
           </li>
 
           <li className="bg-black mb-10  w-24 h-24 mr-8">
-            <img src={Github} alt="next's logo" />
+            <img src={Github} alt="github's logo" />
             Git Hub
           </li>
 
           <li className=" mb-10  w-24 h-24 mr-8">
-            <img src={fb} alt="js's logo" />
+            <img src={fb} alt="fb's logo" />
             Firebase
           </li>
         </ul>
