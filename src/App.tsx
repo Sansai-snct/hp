@@ -1,8 +1,18 @@
 import * as React from 'react';
 import { FC } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+import Index from './pages/Index';
 
 const App: FC = () => {
-  return <h1>Helloworld</h1>;
+  return (
+    <div>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Index />} />
+        </Routes>
+      </Router>
+    </div>
+  );
 };
-
 export default App;

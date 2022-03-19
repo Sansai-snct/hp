@@ -1,9 +1,18 @@
 module.exports = {
-  mode: "jit",
-  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
+  content: ['./src/pages/*.{tsx,js}', './src/components/*.{tsx,js}'],
   darkmode: false,
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        roboto: ['Roboto'],
+        noto: ['Noto Sans JP'],
+      },
+      backgroundImage: (theme) => ({
+        'w-img': "url('../src/images/bg-w.jpg')",
+        'h-img': "url('../src/images/bg-h.jpg')",
+        'twitter-img': "url('../src/images/twitter-99.png')",
+      }),
+    },
   },
   plugins: [],
 };
