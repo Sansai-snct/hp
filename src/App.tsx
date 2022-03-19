@@ -7,7 +7,7 @@ import Index from './pages/Index';
 const App: FC = () => {
   return (
     <div>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<Index />} />
         </Routes>
