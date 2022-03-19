@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkhp=self.webpackChunkhp||[]).push([[121],{7121:function(e,t,s){s.r(t);s(2791);var a=s(184);t.default=function(){return(0,a.jsx)("footer",{className:"mt-10 md:mt-20 text-center text-gray-400 text-xs md:text-base",children:(0,a.jsx)("div",{children:"Copyright \xa9 2022 Shunta Yamagiwa All Rights Reserved."})})}}}]);
+//# sourceMappingURL=121.f6a41405.chunk.js.map
