@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         roboto: ['Roboto'],
+        noto: ['Noto Sans JP'],
       },
       backgroundImage: (theme) => ({
         'w-img': "url('../src/images/bg-w.jpg')",
