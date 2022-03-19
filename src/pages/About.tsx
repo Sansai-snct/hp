@@ -7,7 +7,7 @@ const About: FC = () => {
   return (
     <section id="about" className="lg:mt-32 mt-16">
       <Title>About</Title>
-      <div className="mt-6 lg:px-60 px-8">
+      <div className="mt-6 lg:px-60 px-8 font-noto">
         <p className="mb-2">
           鈴鹿高専新4年生の山際駿太です。三重県生まれの三重県育ちで、米農家です。
         </p>

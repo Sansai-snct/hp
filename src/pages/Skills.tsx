@@ -19,7 +19,7 @@ const Skills: FC = () => {
   return (
     <section className="lg:mt-32 mt-16">
       <Title>Skills</Title>
-      <div className="mt-6 lg:px-60 px-8 ">
+      <div className="mt-6 lg:px-60 px-8 font-noto">
         <ul className="flex flex-wrap flex-row">
           <li className=" mb-10 shadow-md w-24 h-24 mr-8">
             <img src={farm} alt="farm's logo" />

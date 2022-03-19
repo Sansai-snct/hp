@@ -12,7 +12,7 @@ const Links: FC = () => {
   return (
     <section className="lg:mt-32 mt-16">
       <Title>Links</Title>
-      <div className="mt-6 lg:px-60  px-8">
+      <div className="mt-6 lg:px-60  px-8 font-noto">
         <ul className="flex">
           <li className="bg-blue-400 bg-auto w-12 h-12 mr-8 md:w-24 md:h-24 md:mr-16 ">
             <a
