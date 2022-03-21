@@ -25,7 +25,7 @@ const Links: FC = () => {
             </a>
           </li>
 
-          <li className="bg-gray-700 bg-auto w-12 h-12 mr-8 md:w-24 md:h-24 md:mr-16">
+          <li className="bg-black bg-auto w-12 h-12 mr-8 md:w-24 md:h-24 md:mr-16">
             <a
               href="https://github.com/Sansai-snct"
               rel="noopener noreferrer"
