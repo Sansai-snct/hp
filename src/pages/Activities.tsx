@@ -31,12 +31,14 @@ const Activities: FC = () => {
       <Title>Activities</Title>
       <div className="mt-6 lg:px-60  px-8">
         <ul className="relative border-l border-gray-300 font-noto">
-          {Object.keys(obj).map((date) => {
-            return obj[date].map((value) => {
-              key++;
-              return <Activity date={date} content={value} key={key} />;
-            });
-          })}
+          <li>
+            {Object.keys(obj).map((date) => {
+              return obj[date].map((value) => {
+                key++;
+                return <Activity date={date} content={value} key={key} />;
+              });
+            })}
+          </li>
         </ul>
       </div>
     </section>
