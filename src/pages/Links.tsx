@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { FC } from 'react';
 
-import twitter from '../images/twitter.png';
-import github from '../images/github.png';
+import twitter from '../images/twitter.webp';
+import github from '../images/github.webp';
 
-import wantedly from '../images/wantedly.png';
+import wantedly from '../images/wantedly.webp';
 
 import Title from '../components/Title';
 

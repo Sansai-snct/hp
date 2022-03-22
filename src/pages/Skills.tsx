@@ -3,17 +3,17 @@ import { FC } from 'react';
 
 import Title from '../components/Title';
 
-import js from '../images/skills/js.png';
+import js from '../images/skills/js.webp';
 import farm from '../images/skills/farm.webp';
-import nextjs from '../images/skills/next.png';
-import react from '../images/skills/react.png';
-import ts from '../images/skills/typescript.png';
-import swift from '../images/skills/swift.png';
+import nextjs from '../images/skills/next.webp';
+import react from '../images/skills/react.webp';
+import ts from '../images/skills/typescript.webp';
+import swift from '../images/skills/swift.webp';
 import git from '../images/skills/git.png';
-import cpp from '../images/skills/cpp.png';
-import python from '../images/skills/python.png';
-import Github from '../images/github.png';
-import fb from '../images/skills/firebase.png';
+import cpp from '../images/skills/cpp.webp';
+import python from '../images/skills/python.webp';
+import Github from '../images/github.webp';
+import fb from '../images/skills/firebase.webp';
 
 const Skills: FC = () => {
   return (

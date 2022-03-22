@@ -4,8 +4,8 @@ import { FC } from 'react';
 import Title from '../components/Title';
 import WorkDetail from '../components/WorkDetail';
 
-import kigalt from '../images/kigalt.jpeg';
-import bgw from '../images/bg-w.jpg';
+import kigalt from '../images/kigalt.webp';
+import bgw from '../images/bg-w.webp';
 
 const Works: FC = () => {
   return (
