@@ -8,9 +8,8 @@ module.exports = {
         noto: ['Noto Sans JP'],
       },
       backgroundImage: (theme) => ({
-        'w-img': "url('../src/images/bg-w.jpg')",
-        'h-img': "url('../src/images/bg-h.jpg')",
-        'twitter-img': "url('../src/images/twitter-99.png')",
+        'w-img': "url('../src/images/bg-w.webp')",
+        'h-img': "url('../src/images/bg-h.webp')",
       }),
     },
   },
