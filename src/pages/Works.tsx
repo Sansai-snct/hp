@@ -5,7 +5,7 @@ import Title from '../components/Title';
 import WorkDetail from '../components/WorkDetail';
 
 import kigalt from '../images/kigalt.webp';
-import bgw from '../images/bg-w.webp';
+import bgw from '../images/bg-w1.webp';
 
 const Works: FC = () => {
   return (

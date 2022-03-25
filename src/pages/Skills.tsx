@@ -22,55 +22,55 @@ const Skills: FC = () => {
       <div className="mt-6 lg:px-60 px-8 font-noto">
         <ul className="flex flex-wrap flex-row">
           <li className=" mb-10 shadow-md w-24 h-24 mr-8">
-            <img src={farm} alt="farm's logo" />
+            <img src={farm} width="96" height="96" alt="farm's logo" />
             Rice farming
           </li>
           <li className=" mb-10 bg-white  w-24 h-24 mr-8">
-            <img src={swift} alt="Swift's logo" />
+            <img src={swift} width="96" height="96" alt="Swift's logo" />
             Swift
           </li>
 
           <li className=" mb-10  bg-white w-24 h-24 mr-8">
-            <img src={python} alt="Python's logo" />
+            <img src={python} width="96" height="96" alt="Python's logo" />
             Python
           </li>
 
           <li className="mb-10 bg-white w-24 h-24 mr-8">
-            <img src={cpp} alt="Cpp's logo" />
+            <img src={cpp} width="96" height="96" alt="Cpp's logo" />
             C++
           </li>
           <li className="mb-10  w-24 h-24 mr-8">
-            <img src={ts} alt="ts's logo" />
+            <img src={ts} width="96" height="96" alt="ts's logo" />
             Typescript
           </li>
 
           <li className=" mb-10  w-24 h-24 mr-8">
-            <img src={js} alt="js's logo" />
+            <img src={js} width="96" height="96" alt="js's logo" />
             JavaScript
           </li>
 
           <li className=" mb-10  w-24 h-24 mr-8">
-            <img src={react} alt="react's logo" />
+            <img src={react} width="96" height="96" alt="react's logo" />
             React.js
           </li>
 
           <li className=" mb-10  w-24 h-24 mr-8">
-            <img src={nextjs} alt="next's logo" />
+            <img src={nextjs} width="96" height="96" alt="next's logo" />
             Next.js
           </li>
 
           <li className=" mb-10  w-24 h-24 mr-8">
-            <img src={git} alt="git's logo" />
+            <img src={git} width="96" height="96" alt="git's logo" />
             Git
           </li>
 
           <li className="bg-black mb-10  w-24 h-24 mr-8">
-            <img src={Github} alt="github's logo" />
+            <img src={Github} width="96" height="96" alt="github's logo" />
             Git Hub
           </li>
 
           <li className=" mb-10  w-24 h-24 mr-8">
-            <img src={fb} alt="fb's logo" />
+            <img src={fb} width="96" height="96" alt="fb's logo" />
             Firebase
           </li>
         </ul>

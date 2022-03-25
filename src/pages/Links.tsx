@@ -20,7 +20,7 @@ const Links: FC = () => {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <img src={twitter} alt="Twitter's logo" />
+              <img src={twitter} alt="Twitter's logo" width="96" height="96" />
               Twitter
             </a>
           </li>
@@ -31,7 +31,7 @@ const Links: FC = () => {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <img src={github} alt="Github's logo" />
+              <img src={github} alt="Github's logo" width="96" height="96" />
               Github
             </a>
           </li>
@@ -42,7 +42,12 @@ const Links: FC = () => {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <img src={wantedly} alt="Wantedly's logo" />
+              <img
+                src={wantedly}
+                alt="Wantedly's logo"
+                width="96"
+                height="96"
+              />
               Wantedly
             </a>
           </li>
