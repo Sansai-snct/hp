@@ -9,12 +9,12 @@ const About: FC = () => {
       <Title>About</Title>
       <div className="mt-6 lg:px-60 px-8 font-noto">
         <p className="mb-2">
-          鈴鹿高専新4年生の山際駿太です。三重県生まれの三重県育ちで、米農家です。
+          鈴鹿高専4年生の山際駿太です。三重県生まれの18歳です。
         </p>
-        <p className="mb-2">普段はWebフロントエンドを中心に勉強しています。</p>
         <p className="mb-2">
-          最近は技術の深掘りをして理解を深めようとしています。
+          クライアントサイドを主に担当しており、ReactやNextを使用しています。
         </p>
+        <p className="mb-2">MacBook Air2020 M1を使用しています。</p>
       </div>
     </section>
   );
